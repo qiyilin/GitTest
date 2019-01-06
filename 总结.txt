@@ -1,0 +1,12 @@
+//三层架构
+1.表示层  -->跟用户进行交互 web层   view层    action层
+2.业务逻辑 -->处理业务逻辑  service层
+3.持久层   -->操作数据库       dao层
+案例  注册
+user表
+字段  --> id   username   password
+每一个表   --> 对应一个实体类
+
+save()
+
+findByUserName();
